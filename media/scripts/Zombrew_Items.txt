@@ -1,0 +1,2079 @@
+module ZBR 
+{
+    imports 
+    {
+        Base
+    }
+
+    /************************Spirits************************/
+
+    item Moonshine
+	    {
+            DisplayName =       Moonshine,
+            DisplayCategory =   Food,
+            Type =              Food,
+            Weight =            2.0,
+            Icon =              MoonshineJug,
+            AlcoholPower =      2,
+            Alcoholic =         TRUE,
+            CantBeFrozen =      TRUE,
+            EatType =           popcan,
+            Packaged =          TRUE,
+            ReplaceOnUse =      MoonshineEmpty,
+            HungerChange =      -25,
+            ThirstChange =      -25,
+            UnhappyChange =     -25,
+            Calories =          1800,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            StaticModel =       MoonshineJug,
+            WorldStaticModel =  MoonshineJug,
+            Tags =              Liquor,
+            EvolvedRecipe =     OldFashioned:5;Martini:5;Daiquiri:5;Sidecar:5;Highball:5;Flip:5;Beverage:4;Beverage2:4;HotDrink:4;HotDrinkRed:4;HotDrinkWhite:4;HotDrinkSpiffo:4;HotDrinkTea:4;Soup:4;Stew:4,
+            FoodType	=  	    Liquor,
+	    }
+
+        item Gin
+	    {
+            DisplayName =       Gin,
+            DisplayCategory =   Food,
+            Type =              Food,
+            Weight =            .7,
+            Icon =              GinBottle,
+            AlcoholPower =      2,
+            Alcoholic =         TRUE,
+            CantBeFrozen =      TRUE,
+            EatType =           popcan,
+            Packaged =          TRUE,
+            ReplaceOnUse =      GinEmpty,
+            HungerChange =      -20,
+            ThirstChange =      -20,
+            UnhappyChange =     -20,
+            Calories =          1500,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            StaticModel =       GinBottle,
+            WorldStaticModel =  GinBottle,
+            Tags =              Liquor,
+            EvolvedRecipe =     OldFashioned:5;Martini:5;Daiquiri:5;Sidecar:5;Highball:5;Flip:5;Beverage:4;Beverage2:4;HotDrink:4;HotDrinkRed:4;HotDrinkWhite:4;HotDrinkSpiffo:4;HotDrinkTea:4;Soup:4;Stew:4,
+            FoodType	=  	    Liquor,
+	    }
+
+        item Vodka
+	    {
+            DisplayName =       Vodka,
+            DisplayCategory =   Food,
+            Type =              Food,
+            Weight =            .7,
+            Icon =              VodkaBottle,
+            AlcoholPower =      2,
+            Alcoholic =         TRUE,
+            CantBeFrozen =      TRUE,
+            EatType =           popcan,
+            Packaged =          TRUE,
+            ReplaceOnUse =      VodkaEmpty,
+            HungerChange =      -20,
+            ThirstChange =      -20,
+            UnhappyChange =     -20,
+            Calories =          1500,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            StaticModel =       VodkaBottle,
+            WorldStaticModel =  VodkaBottle,
+            Tags =              Liquor,
+            EvolvedRecipe =     OldFashioned:5;Martini:5;Daiquiri:5;Sidecar:5;Highball:5;Flip:5;Beverage:4;Beverage2:4;HotDrink:4;HotDrinkRed:4;HotDrinkWhite:4;HotDrinkSpiffo:4;HotDrinkTea:4;Soup:4;Stew:4,
+            FoodType	=  	    Liquor,
+	    } 
+
+        item Tequila
+	    {
+            DisplayName =       Tequila,
+            DisplayCategory =   Food,
+            Type =              Food,
+            Weight =            .7,
+            Icon =              TequilaBottle,
+            AlcoholPower =      2,
+            Alcoholic =         TRUE,
+            CantBeFrozen =      TRUE,
+            EatType =           popcan,
+            Packaged =          TRUE,
+            ReplaceOnUse =      TequilaEmpty,
+            HungerChange =      -20,
+            ThirstChange =      -20,
+            UnhappyChange =     -20,
+            Calories =          1500,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            StaticModel =       TequilaBottle,
+            WorldStaticModel =  TequilaBottle,
+            Tags =              Liquor,
+            EvolvedRecipe =     OldFashioned:5;Martini:5;Daiquiri:5;Sidecar:5;Highball:5;Flip:5;Beverage:4;Beverage2:4;HotDrink:4;HotDrinkRed:4;HotDrinkWhite:4;HotDrinkSpiffo:4;HotDrinkTea:4;Soup:4;Stew:4,
+            FoodType	=  	    Liquor,
+	    }
+
+        item Brandy
+	    {
+            DisplayName =       Brandy,
+            DisplayCategory =   Food,
+            Type =              Food,
+            Weight =            .7,
+            Icon =              BrandyBottle,
+            AlcoholPower =      2,
+            Alcoholic =         TRUE,
+            CantBeFrozen =      TRUE,
+            EatType =           popcan,
+            Packaged =          TRUE,
+            ReplaceOnUse =      BrandyEmpty,
+            HungerChange =      -20,
+            ThirstChange =      -20,
+            UnhappyChange =     -20,
+            Calories =          1500,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            StaticModel =       BrandyBottle,
+            WorldStaticModel =  BrandyBottle,
+            Tags =              Liquor,
+            EvolvedRecipe =     OldFashioned:5;Martini:5;Daiquiri:5;Sidecar:5;Highball:5;Flip:5;Beverage:4;Beverage2:4;HotDrink:4;HotDrinkRed:4;HotDrinkWhite:4;HotDrinkSpiffo:4;HotDrinkTea:4;Soup:4;Stew:4,
+            FoodType	=  	    Liquor,
+	    }     
+
+        item Rum
+	    {
+            DisplayName =       Rum,
+            DisplayCategory =   Food,
+            Type =              Food,
+            Weight =            .7,
+            Icon =              RumBottle,
+            AlcoholPower =      2,
+            Alcoholic =         TRUE,
+            CantBeFrozen =      TRUE,
+            EatType =           popcan,
+            Packaged =          TRUE,
+            ReplaceOnUse =      RumEmpty,
+            HungerChange =      -20,
+            ThirstChange =      -20,
+            UnhappyChange =     -20,
+            Calories =          1500,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            StaticModel =       RumBottle,
+            WorldStaticModel =  RumBottle,
+            Tags =              Liquor,
+            EvolvedRecipe =     OldFashioned:5;Martini:5;Daiquiri:5;Sidecar:5;Highball:5;Flip:5;Beverage:4;Beverage2:4;HotDrink:4;HotDrinkRed:4;HotDrinkWhite:4;HotDrinkSpiffo:4;HotDrinkTea:4;Soup:4;Stew:4,
+            FoodType	=  	    Liquor,
+	    }
+
+        item Absinthe
+	    {
+            DisplayName =       Absinthe,
+            DisplayCategory =   Food,
+            Type =              Food,
+            Weight =            .7,
+            Icon =              AbsintheBottle,
+            AlcoholPower =      2,
+            Alcoholic =         TRUE,
+            CantBeFrozen =      TRUE,
+            EatType =           popcan,
+            Packaged =          TRUE,
+            ReplaceOnUse =      AbsintheEmpty,
+            HungerChange =      -20,
+            ThirstChange =      -20,
+            UnhappyChange =     -20,
+            Calories =          1500,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            StaticModel =       AbintheBottle,
+            WorldStaticModel =  AbsintheBottle,
+            Tags =              Liquor,
+            EvolvedRecipe =     OldFashioned:5;Martini:5;Daiquiri:5;Sidecar:5;Highball:5;Flip:5;Beverage:4;Beverage2:4;HotDrink:4;HotDrinkRed:4;HotDrinkWhite:4;HotDrinkSpiffo:4;HotDrinkTea:4;Soup:4;Stew:4,
+            FoodType	=  	    Liquor,
+	    }
+
+        item Campari
+	    {
+            DisplayName =       Campari,
+            DisplayCategory =   Food,
+            Type =              Food,
+            Weight =            .7,
+            Icon =              Campari,
+            AlcoholPower =      2,
+            Alcoholic =         TRUE,
+            CantBeFrozen =      TRUE,
+            EatType =           popcan,
+            Packaged =          TRUE,
+            ReplaceOnUse =      CampariEmpty,
+            HungerChange =      -20,
+            ThirstChange =      -20,
+            UnhappyChange =     -20,
+            Calories =          1500,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            StaticModel =       Campari,
+            WorldStaticModel =  Campari,
+            Tags =              Liquor,
+            EvolvedRecipe =     OldFashioned:5;Martini:5;Daiquiri:5;Sidecar:5;Highball:5;Flip:5;Beverage:4;Beverage2:4;HotDrink:4;HotDrinkRed:4;HotDrinkWhite:4;HotDrinkSpiffo:4;HotDrinkTea:4;Soup:4;Stew:4,
+            FoodType	=  	    Liquor,
+	    }    
+
+        item OverproofRum
+	    {
+            DisplayName =       Overproof Rum,
+            DisplayCategory =   Food,
+            Type =              Food,
+            Weight =            .7,
+            Icon =              Overproof,
+            AlcoholPower =      2,
+            Alcoholic =         TRUE,
+            CantBeFrozen =      TRUE,
+            EatType =           popcan,
+            Packaged =          TRUE,
+            ReplaceOnUse =      OverproofEmpty,
+            HungerChange =      -20,
+            ThirstChange =      -20,
+            UnhappyChange =     -20,
+            Calories =          1500,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            StaticModel =       Overproof,
+            WorldStaticModel =  Overproof,
+            Tags =              Liquor,
+            EvolvedRecipe =     OldFashioned:5;Martini:5;Daiquiri:5;Sidecar:5;Highball:5;Flip:5;Beverage:4;Beverage2:4;HotDrink:4;HotDrinkRed:4;HotDrinkWhite:4;HotDrinkSpiffo:4;HotDrinkTea:4;Soup:4;Stew:4,
+            FoodType	=  	    Liquor,
+	    } 
+
+        item Kahlua
+	    {
+            DisplayName =       Kahlua,
+            DisplayCategory =   Food,
+            Type =              Food,
+            Weight =            .7,
+            Icon =              Kahlua,
+            AlcoholPower =      2,
+            Alcoholic =         TRUE,
+            CantBeFrozen =      TRUE,
+            EatType =           popcan,
+            Packaged =          TRUE,
+            ReplaceOnUse =      KahluaEmpty,
+            HungerChange =      -20,
+            ThirstChange =      -20,
+            UnhappyChange =     -20,
+            Calories =          1500,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            StaticModel =       Kahlua,
+            WorldStaticModel =  Kahlua,
+            Tags =              Liquor,
+            EvolvedRecipe =     OldFashioned:5;Martini:5;Daiquiri:5;Sidecar:5;Highball:5;Flip:5;Beverage:4;Beverage2:4;HotDrink:4;HotDrinkRed:4;HotDrinkWhite:4;HotDrinkSpiffo:4;HotDrinkTea:4;Soup:4;Stew:4,
+            FoodType	=  	    Liquor,
+	    }
+
+        item Chartreuse
+	    {
+            DisplayName =       Chartreuse,
+            DisplayCategory =   Food,
+            Type =              Food,
+            Weight =            .7,
+            Icon =              Chartreuse,
+            AlcoholPower =      2,
+            Alcoholic =         TRUE,
+            CantBeFrozen =      TRUE,
+            EatType =           popcan,
+            Packaged =          TRUE,
+            ReplaceOnUse =      ChartreuseEmpty,
+            HungerChange =      -20,
+            ThirstChange =      -20,
+            UnhappyChange =     -20,
+            Calories =          1500,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            StaticModel =       Chartreuse,
+            WorldStaticModel =  Chartreuse,
+            Tags =              Liquor,
+            EvolvedRecipe =     OldFashioned:5;Martini:5;Daiquiri:5;Sidecar:5;Highball:5;Flip:5;Beverage:4;Beverage2:4;HotDrink:4;HotDrinkRed:4;HotDrinkWhite:4;HotDrinkSpiffo:4;HotDrinkTea:4;Soup:4;Stew:4,
+            FoodType	=  	    Liquor,
+	    }
+
+        item Amaretto
+	    {
+            DisplayName =       Amaretto,
+            DisplayCategory =   Food,
+            Type =              Food,
+            Weight =            .7,
+            Icon =              Amaretto,
+            AlcoholPower =      2,
+            Alcoholic =         TRUE,
+            CantBeFrozen =      TRUE,
+            EatType =           popcan,
+            Packaged =          TRUE,
+            ReplaceOnUse =      AmarettoEmpty,
+            HungerChange =      -20,
+            ThirstChange =      -20,
+            UnhappyChange =     -20,
+            Calories =          1500,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            StaticModel =       Amaretto,
+            WorldStaticModel =  Amaretto,
+            Tags =              Liquor,
+            EvolvedRecipe =     OldFashioned:5;Martini:5;Daiquiri:5;Sidecar:5;Highball:5;Flip:5;Beverage:4;Beverage2:4;HotDrink:4;HotDrinkRed:4;HotDrinkWhite:4;HotDrinkSpiffo:4;HotDrinkTea:4;Soup:4;Stew:4,
+            FoodType	=  	    Liquor,
+	    }
+
+        item Luxardo
+	    {
+            DisplayName =       Luxardo,
+            DisplayCategory =   Food,
+            Type =              Food,
+            Weight =            .7,
+            Icon =              Luxardo,
+            AlcoholPower =      2,
+            Alcoholic =         TRUE,
+            CantBeFrozen =      TRUE,
+            EatType =           popcan,
+            Packaged =          TRUE,
+            ReplaceOnUse =      LuxardoEmpty,
+            HungerChange =      -20,
+            ThirstChange =      -20,
+            UnhappyChange =     -20,
+            Calories =          1500,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            StaticModel =       Luxardo,
+            WorldStaticModel =  Luxardo,
+            Tags =              Liquor,
+            EvolvedRecipe =     OldFashioned:5;Martini:5;Daiquiri:5;Sidecar:5;Highball:5;Flip:5;Beverage:4;Beverage2:4;HotDrink:4;HotDrinkRed:4;HotDrinkWhite:4;HotDrinkSpiffo:4;HotDrinkTea:4;Soup:4;Stew:4,
+            FoodType	=  	    Liquor,
+	    }
+
+        item Cream
+	    {
+            DisplayName =       Cream Liqueur,
+            DisplayCategory =   Food,
+            Type =              Food,
+            Weight =            .7,
+            Icon =              Cream,
+            AlcoholPower =      2,
+            Alcoholic =         TRUE,
+            CantBeFrozen =      TRUE,
+            EatType =           popcan,
+            Packaged =          TRUE,
+            ReplaceOnUse =      CreamEmpty,
+            HungerChange =      -20,
+            ThirstChange =      -20,
+            UnhappyChange =     -20,
+            Calories =          1500,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            StaticModel =       Cream,
+            WorldStaticModel =  Cream,
+            Tags =              Liquor,
+            EvolvedRecipe =     OldFashioned:5;Martini:5;Daiquiri:5;Sidecar:5;Highball:5;Flip:5;Beverage:4;Beverage2:4;HotDrink:4;HotDrinkRed:4;HotDrinkWhite:4;HotDrinkSpiffo:4;HotDrinkTea:4;Soup:4;Stew:4,
+            FoodType	=  	    Liquor,
+	    }
+
+
+        /************************Empties************************/
+
+        item RumEmpty
+	    {
+            DisplayCategory =   WaterContainer,
+            Weight	=	        0.3,
+            CanStoreWater	=	TRUE,
+            Type	=	        Normal,
+            DisplayName	=	    Empty Rum Bottle,
+            ReplaceOnUseOn	=	WaterSource-RumWater,
+            Icon	=	        RumBottle,
+            WorldStaticModel =  RumBottle,
+            StaticModel =       RumBottle,
+            Tags =              EmptyPetrol,
+		    ReplaceTypes =      PetrolSource RumPetrol;WaterSource RumWater,
+	    }
+
+        item BrandyEmpty
+	    {
+            DisplayCategory =   WaterContainer,
+            Weight	=	        0.3,
+            CanStoreWater	=	TRUE,
+            Type	=	        Normal,
+            DisplayName	=	    Empty Brandy Bottle,
+            ReplaceOnUseOn	=	WaterSource-BrandyWater,
+            Icon	=	        BrandyBottle,
+            WorldStaticModel =  BrandyBottle,
+            StaticModel =       BrandyBottle,
+            Tags =              EmptyPetrol,
+		    ReplaceTypes =      PetrolSource BrandyPetrol;WaterSource BrandyWater,
+	    }
+
+        item TequilaEmpty
+	    {
+            DisplayCategory =   WaterContainer,
+            Weight	=	        0.3,
+            CanStoreWater	=	TRUE,
+            Type	=	        Normal,
+            DisplayName	=	    Empty Tequila Bottle,
+            ReplaceOnUseOn	=	WaterSource-TequilaWater,
+            Icon	=	        TequilaBottle,
+            WorldStaticModel =  TequilaBottle,
+            StaticModel =       TequilaBottle,
+            Tags =              EmptyPetrol,
+		    ReplaceTypes =      PetrolSource TequilaPetrol;WaterSource TequilaWater,
+	    }
+
+        item VodkaEmpty
+	    {
+            DisplayCategory =   WaterContainer,
+            Weight	=	        0.3,
+            CanStoreWater	=	TRUE,
+            Type	=	        Normal,
+            DisplayName	=	    Empty Vodka Bottle,
+            ReplaceOnUseOn	=	WaterSource-VodkaWater,
+            Icon	=	        VodkaBottle,
+            WorldStaticModel =  VodkaBottle,
+            StaticModel =       VodkaBottle,
+            Tags =              EmptyPetrol,
+		    ReplaceTypes =      PetrolSource VodkaPetrol;WaterSource VodkaWater,
+	    }
+
+        item GinEmpty
+	    {
+            DisplayCategory =   WaterContainer,
+            Weight	=	        0.3,
+            CanStoreWater	=	TRUE,
+            Type	=	        Normal,
+            DisplayName	=	    Empty Gin Bottle,
+            ReplaceOnUseOn	=	WaterSource-GinWater,
+            Icon	=	        GinBottle,
+            WorldStaticModel =  GinBottle,
+            StaticModel =       GinBottle,
+            Tags =              EmptyPetrol,
+		    ReplaceTypes =      PetrolSource GinPetrol;WaterSource GinWater,
+	    }
+
+        item MoonshineEmpty
+	    {
+            DisplayCategory =   WaterContainer,
+            Weight	=	        0.4,
+            CanStoreWater	=	TRUE,
+            Type	=	        Normal,
+            DisplayName	=	    Empty Moonshine Jug,
+            ReplaceOnUseOn	=	WaterSource-MoonshineWater,
+            Icon	=	        MoonshineJug,
+            WorldStaticModel =  MoonshineJug,
+            StaticModel =       MoonshineJug,
+            Tags =              EmptyPetrol,
+		    ReplaceTypes =      PetrolSource MoonshinePetrol;WaterSource MoonshineWater,
+	    }
+
+        item AbsintheEmpty
+	    {
+            DisplayCategory =   WaterContainer,
+            Weight	=	        0.3,
+            CanStoreWater	=	TRUE,
+            Type	=	        Normal,
+            DisplayName	=	    Empty Absinthe Bottle,
+            ReplaceOnUseOn	=	WaterSource-AbsintheWater,
+            Icon	=	        AbsintheBottle,
+            WorldStaticModel =  AbsintheBottle,
+            StaticModel =       AbsintheBottle,
+            Tags =              EmptyPetrol,
+		    ReplaceTypes =      PetrolSource AbsinthePetrol;WaterSource AbsintheWater,
+	    }
+
+        item CampariEmpty
+	    {
+            DisplayCategory =   WaterContainer,
+            Weight	=	        0.3,
+            CanStoreWater	=	TRUE,
+            Type	=	        Normal,
+            DisplayName	=	    Empty Campari Bottle,
+            ReplaceOnUseOn	=	WaterSource-CampariWater,
+            Icon	=	        Campari,
+            WorldStaticModel =  Campari,
+            StaticModel =       Campari,
+            Tags =              EmptyPetrol,
+		    ReplaceTypes =      PetrolSource CampariPetrol;WaterSource CampariWater,
+	    }
+
+        item OverproofEmpty
+	    {
+            DisplayCategory =   WaterContainer,
+            Weight	=	        0.3,
+            CanStoreWater	=	TRUE,
+            Type	=	        Normal,
+            DisplayName	=	    Empty Overproof Rum Bottle,
+            ReplaceOnUseOn	=	WaterSource-OverproofWater,
+            Icon	=	        Overproof,
+            WorldStaticModel =  Overproof,
+            StaticModel =       Overproof,
+            Tags =              EmptyPetrol,
+		    ReplaceTypes =      PetrolSource OverproofPetrol;WaterSource OverproofWater,
+	    }
+
+        item KahluaEmpty
+	    {
+            DisplayCategory =   WaterContainer,
+            Weight	=	        0.3,
+            CanStoreWater	=	TRUE,
+            Type	=	        Normal,
+            DisplayName	=	    Empty Kahlua Bottle,
+            ReplaceOnUseOn	=	WaterSource-KahluaWater,
+            Icon	=	        Kahlua,
+            WorldStaticModel =  Kahlua,
+            StaticModel =       Kahlua,
+            Tags =              EmptyPetrol,
+		    ReplaceTypes =      PetrolSource KahluaPetrol;WaterSource KahluaWater,
+	    }
+
+        item ChartreuseEmpty
+	    {
+            DisplayCategory =   WaterContainer,
+            Weight	=	        0.3,
+            CanStoreWater	=	TRUE,
+            Type	=	        Normal,
+            DisplayName	=	    Empty Chartreuse Bottle,
+            ReplaceOnUseOn	=	WaterSource-ChartreuseWater,
+            Icon	=	        Chartreuse,
+            WorldStaticModel =  Chartreuse,
+            StaticModel =       Chartreuse,
+            Tags =              EmptyPetrol,
+		    ReplaceTypes =      PetrolSource ChartreusePetrol;WaterSource ChartreuseWater,
+	    }
+
+        item AmarettoEmpty
+	    {
+            DisplayCategory =   WaterContainer,
+            Weight	=	        0.3,
+            CanStoreWater	=	TRUE,
+            Type	=	        Normal,
+            DisplayName	=	    Empty Amaretto Bottle,
+            ReplaceOnUseOn	=	WaterSource-AmarettoWater,
+            Icon	=	        Amaretto,
+            WorldStaticModel =  Amaretto,
+            StaticModel =       Amaretto,
+            Tags =              EmptyPetrol,
+		    ReplaceTypes =      PetrolSource AmarettoPetrol;WaterSource AmarettoWater,
+	    }
+
+        item LuxardoEmpty
+	    {
+            DisplayCategory =   WaterContainer,
+            Weight	=	        0.3,
+            CanStoreWater	=	TRUE,
+            Type	=	        Normal,
+            DisplayName	=	    Empty Luxardo Bottle,
+            ReplaceOnUseOn	=	WaterSource-LuxardoWater,
+            Icon	=	        Luxardo,
+            WorldStaticModel =  Luxardo,
+            StaticModel =       Luxardo,
+            Tags =              EmptyPetrol,
+		    ReplaceTypes =      PetrolSource LuxardoPetrol;WaterSource LuxardoWater,
+	    }
+
+        item CreamEmpty
+	    {
+            DisplayCategory =   WaterContainer,
+            Weight	=	        0.3,
+            CanStoreWater	=	TRUE,
+            Type	=	        Normal,
+            DisplayName	=	    Empty Cream Liqueur Bottle,
+            ReplaceOnUseOn	=	WaterSource-CreamWater,
+            Icon	=	        Cream,
+            WorldStaticModel =  Cream,
+            StaticModel =       Cream,
+            Tags =              EmptyPetrol,
+		    ReplaceTypes =      PetrolSource CreamPetrol;WaterSource CreamWater,
+	    }
+
+        /************************Water Bottles************************/
+
+        item MoonshineWater
+        {
+            DisplayCategory =   Water,
+            IsWaterSource =     TRUE,
+            Weight =            3.0,
+            CanStoreWater =     TRUE,
+            FillFromDispenserSound = GetWaterFromDispenserGlass,
+		    FillFromTapSound =  GetWaterFromTapGlass,
+            Type =              Drainable,
+            UseWhileEquipped =  FALSE,
+            UseDelta =          0.04,
+            DisplayName =       Filled Moonshine Jug,
+            ReplaceOnDeplete =  MoonshineEmpty.
+            ReplaceOnUseOn =    WaterSource-MoonshineWater, 
+            Icon =              MoonshineJug,
+            WorldStaticModel =  MoonshineJug,
+            StaticModel =       MoonshineJug,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            AttachmentType  = 	WaterBottle,
+        }
+
+        item GinWater
+        {
+            DisplayCategory =   Water,
+            IsWaterSource =     TRUE,
+            Weight =            1.0,
+            CanStoreWater =     TRUE,
+            FillFromDispenserSound = GetWaterFromDispenserGlass,
+		    FillFromTapSound =  GetWaterFromTapGlass,
+            Type =              Drainable,
+            UseWhileEquipped =  FALSE,
+            UseDelta =          0.06,
+            DisplayName =       Water Bottle,
+            ReplaceOnDeplete =  GinEmpty.
+            ReplaceOnUseOn =    WaterSource-GinWater, 
+            Icon =              GinBottle,
+            WorldStaticModel =  GinBottle,
+            StaticModel =       GinBottle,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            AttachmentType  = 	WaterBottle,
+        }
+
+        item VodkaWater
+        {
+            DisplayCategory =   Water,
+            IsWaterSource =     TRUE,
+            Weight =            1.0,
+            CanStoreWater =     TRUE,
+            FillFromDispenserSound = GetWaterFromDispenserGlass,
+		    FillFromTapSound =  GetWaterFromTapGlass,
+            Type =              Drainable,
+            UseWhileEquipped =  FALSE,
+            UseDelta =          0.06,
+            DisplayName =       Water Bottle,
+            ReplaceOnDeplete =  VodkaEmpty.
+            ReplaceOnUseOn =    WaterSource-GinWater, 
+            Icon =              VodkaBottle,
+            WorldStaticModel =  VodkaBottle,
+            StaticModel =       VodkaBottle,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            AttachmentType  = 	WaterBottle,
+        }
+
+        item TequilaWater
+        {
+            DisplayCategory =   Water,
+            IsWaterSource =     TRUE,
+            Weight =            1.0,
+            CanStoreWater =     TRUE,
+            FillFromDispenserSound = GetWaterFromDispenserGlass,
+		    FillFromTapSound =  GetWaterFromTapGlass,
+            Type =              Drainable,
+            UseWhileEquipped =  FALSE,
+            UseDelta =          0.06,
+            DisplayName =       Water Bottle,
+            ReplaceOnDeplete =  TequilaEmpty.
+            ReplaceOnUseOn =    WaterSource-TequilaWater, 
+            Icon =              TequilaBottle,
+            WorldStaticModel =  TequilaBottle,
+            StaticModel =       TequilaBottle,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            AttachmentType  = 	WaterBottle,
+        }
+
+        item BrandyWater
+        {
+            DisplayCategory =   Water,
+            IsWaterSource =     TRUE,
+            Weight =            1.0,
+            CanStoreWater =     TRUE,
+            FillFromDispenserSound = GetWaterFromDispenserGlass,
+		    FillFromTapSound =  GetWaterFromTapGlass,
+            Type =              Drainable,
+            UseWhileEquipped =  FALSE,
+            UseDelta =          0.06,
+            DisplayName =       Water Bottle,
+            ReplaceOnDeplete =  BrandyEmpty.
+            ReplaceOnUseOn =    WaterSource-BrandyWater, 
+            Icon =              BrandyBottle,
+            WorldStaticModel =  BrandyBottle,
+            StaticModel =       BrandyBottle,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            AttachmentType  = 	WaterBottle,
+        }
+
+        item RumWater
+        {
+            DisplayCategory =   Water,
+            IsWaterSource =     TRUE,
+            Weight =            1.0,
+            CanStoreWater =     TRUE,
+            FillFromDispenserSound = GetWaterFromDispenserGlass,
+		    FillFromTapSound =  GetWaterFromTapGlass,
+            Type =              Drainable,
+            UseWhileEquipped =  FALSE,
+            UseDelta =          0.06,
+            DisplayName =       Water Bottle,
+            ReplaceOnDeplete =  RumEmpty.
+            ReplaceOnUseOn =    WaterSource-RumWater, 
+            Icon =              RumBottle,
+            WorldStaticModel =  RumBottle,
+            StaticModel =       RumBottle,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            AttachmentType  = 	WaterBottle,
+        }
+
+        item AbsintheWater
+        {
+            DisplayCategory =   Water,
+            IsWaterSource =     TRUE,
+            Weight =            1.0,
+            CanStoreWater =     TRUE,
+            FillFromDispenserSound = GetWaterFromDispenserGlass,
+		    FillFromTapSound =  GetWaterFromTapGlass,
+            Type =              Drainable,
+            UseWhileEquipped =  FALSE,
+            UseDelta =          0.06,
+            DisplayName =       Water Bottle,
+            ReplaceOnDeplete =  AbsintheEmpty.
+            ReplaceOnUseOn =    WaterSource-AbsintheWater, 
+            Icon =              AbsintheBottle,
+            WorldStaticModel =  AbsintheBottle,
+            StaticModel =       AbsintheBottle,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            AttachmentType  = 	WaterBottle,
+        }
+
+        item CampariWater
+        {
+            DisplayCategory =   Water,
+            IsWaterSource =     TRUE,
+            Weight =            1.0,
+            CanStoreWater =     TRUE,
+            FillFromDispenserSound = GetWaterFromDispenserGlass,
+		    FillFromTapSound =  GetWaterFromTapGlass,
+            Type =              Drainable,
+            UseWhileEquipped =  FALSE,
+            UseDelta =          0.06,
+            DisplayName =       Water Bottle,
+            ReplaceOnDeplete =  CampariEmpty.
+            ReplaceOnUseOn =    WaterSource-CampariWater, 
+            Icon =              Campari,
+            WorldStaticModel =  Campari,
+            StaticModel =       Campari,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            AttachmentType  = 	WaterBottle,
+        }
+
+        item OverproofWater
+        {
+            DisplayCategory =   Water,
+            IsWaterSource =     TRUE,
+            Weight =            1.0,
+            CanStoreWater =     TRUE,
+            FillFromDispenserSound = GetWaterFromDispenserGlass,
+		    FillFromTapSound =  GetWaterFromTapGlass,
+            Type =              Drainable,
+            UseWhileEquipped =  FALSE,
+            UseDelta =          0.06,
+            DisplayName =       Water Bottle,
+            ReplaceOnDeplete =  OverproofEmpty.
+            ReplaceOnUseOn =    WaterSource-OverproofWater, 
+            Icon =              Overproof,
+            WorldStaticModel =  Overproof,
+            StaticModel =       Overproof,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            AttachmentType  = 	WaterBottle,
+        }
+
+        item KahluaWater
+        {
+            DisplayCategory =   Water,
+            IsWaterSource =     TRUE,
+            Weight =            1.0,
+            CanStoreWater =     TRUE,
+            FillFromDispenserSound = GetWaterFromDispenserGlass,
+		    FillFromTapSound =  GetWaterFromTapGlass,
+            Type =              Drainable,
+            UseWhileEquipped =  FALSE,
+            UseDelta =          0.06,
+            DisplayName =       Water Bottle,
+            ReplaceOnDeplete =  KahluaEmpty.
+            ReplaceOnUseOn =    WaterSource-KahluaWater, 
+            Icon =              Kahlua,
+            WorldStaticModel =  Kahlua,
+            StaticModel =       Kahlua,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            AttachmentType  = 	WaterBottle,
+        }
+
+        item ChartreuseWater
+        {
+            DisplayCategory =   Water,
+            IsWaterSource =     TRUE,
+            Weight =            1.0,
+            CanStoreWater =     TRUE,
+            FillFromDispenserSound = GetWaterFromDispenserGlass,
+		    FillFromTapSound =  GetWaterFromTapGlass,
+            Type =              Drainable,
+            UseWhileEquipped =  FALSE,
+            UseDelta =          0.06,
+            DisplayName =       Water Bottle,
+            ReplaceOnDeplete =  ChartreuseEmpty.
+            ReplaceOnUseOn =    WaterSource-ChartreuseWater, 
+            Icon =              Chartreuse,
+            WorldStaticModel =  Chartreuse,
+            StaticModel =       Chartreuse,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            AttachmentType  = 	WaterBottle,
+        }
+
+        item AmarettoWater
+        {
+            DisplayCategory =   Water,
+            IsWaterSource =     TRUE,
+            Weight =            1.0,
+            CanStoreWater =     TRUE,
+            FillFromDispenserSound = GetWaterFromDispenserGlass,
+		    FillFromTapSound =  GetWaterFromTapGlass,
+            Type =              Drainable,
+            UseWhileEquipped =  FALSE,
+            UseDelta =          0.06,
+            DisplayName =       Water Bottle,
+            ReplaceOnDeplete =  AmarettoEmpty.
+            ReplaceOnUseOn =    WaterSource-AmarettoWater, 
+            Icon =              Amaretto,
+            WorldStaticModel =  Amaretto,
+            StaticModel =       Amaretto,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            AttachmentType  = 	WaterBottle,
+        }
+
+        item LuxardoWater
+        {
+            DisplayCategory =   Water,
+            IsWaterSource =     TRUE,
+            Weight =            1.0,
+            CanStoreWater =     TRUE,
+            FillFromDispenserSound = GetWaterFromDispenserGlass,
+		    FillFromTapSound =  GetWaterFromTapGlass,
+            Type =              Drainable,
+            UseWhileEquipped =  FALSE,
+            UseDelta =          0.06,
+            DisplayName =       Water Bottle,
+            ReplaceOnDeplete =  LuxardoEmpty.
+            ReplaceOnUseOn =    WaterSource-LuxardoWater, 
+            Icon =              Luxardo,
+            WorldStaticModel =  Luxardo,
+            StaticModel =       Luxardo,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            AttachmentType  = 	WaterBottle,
+        }
+
+        item CreamWater
+        {
+            DisplayCategory =   Water,
+            IsWaterSource =     TRUE,
+            Weight =            1.0,
+            CanStoreWater =     TRUE,
+            FillFromDispenserSound = GetWaterFromDispenserGlass,
+		    FillFromTapSound =  GetWaterFromTapGlass,
+            Type =              Drainable,
+            UseWhileEquipped =  FALSE,
+            UseDelta =          0.06,
+            DisplayName =       Water Bottle,
+            ReplaceOnDeplete =  CreamEmpty.
+            ReplaceOnUseOn =    WaterSource-CreamWater, 
+            Icon =              Cream,
+            WorldStaticModel =  Cream,
+            StaticModel =       Cream,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            AttachmentType  = 	WaterBottle,
+        }
+
+        /************************Petrols************************/
+
+        item BrandyPetrol
+	    {
+		    DisplayCategory = VehicleMaintenance,
+		    Weight	=	0.7,
+		    Type	=	Drainable,
+		    UseWhileEquipped	=	FALSE,
+		    UseDelta	=	1,
+		    DisplayName	=	Bottle of Gasoline,
+		    Icon	=	BrandyBottle,
+		    ReplaceOnDeplete	=	BrandyEmpty,
+		    StaticModel = BrandyBottle,
+		    WorldStaticModel = BrandyBottle,
+		    Tags = Petrol,
+	    }
+
+        item GinPetrol
+	    {
+		    DisplayCategory = VehicleMaintenance,
+		    Weight	=	0.7,
+		    Type	=	Drainable,
+		    UseWhileEquipped	=	FALSE,
+		    UseDelta	=	1,
+		    DisplayName	=	Bottle of Gasoline,
+		    Icon	=	GinBottle,
+		    ReplaceOnDeplete	=	GinEmpty,
+		    StaticModel = GinBottle,
+		    WorldStaticModel = GinBottle,
+		    Tags = Petrol,
+	    }
+
+        item MoonshinePetrol
+	    {
+		    DisplayCategory = VehicleMaintenance,
+		    Weight	=	0.7,
+		    Type	=	Drainable,
+		    UseWhileEquipped	=	FALSE,
+		    UseDelta	=	1,
+		    DisplayName	=	Bottle of Gasoline,
+		    Icon	=	MoonshineJug,
+		    ReplaceOnDeplete	=	MoonshineEmpty,
+		    StaticModel = MoonshineJug,
+		    WorldStaticModel = MoonshineJug,
+		    Tags = Petrol,
+	    }
+
+        item RumPetrol
+	    {
+		    DisplayCategory = VehicleMaintenance,
+		    Weight	=	0.7,
+		    Type	=	Drainable,
+		    UseWhileEquipped	=	FALSE,
+		    UseDelta	=	1,
+		    DisplayName	=	Bottle of Gasoline,
+		    Icon	=	RumBottle,
+		    ReplaceOnDeplete	=	RumEmpty,
+		    StaticModel = RumBottle,
+		    WorldStaticModel = RumBottle,
+		    Tags = Petrol,
+	    }
+
+        item TequilaPetrol
+	    {
+		    DisplayCategory = VehicleMaintenance,
+		    Weight	=	0.7,
+		    Type	=	Drainable,
+		    UseWhileEquipped	=	FALSE,
+		    UseDelta	=	1,
+		    DisplayName	=	Bottle of Gasoline,
+		    Icon	=	TequilaBottle,
+		    ReplaceOnDeplete	=	BrandyEmpty,
+		    StaticModel = TequilaBottle,
+		    WorldStaticModel = TequilaBottle,
+		    Tags = Petrol,
+	    }
+
+        item VodkaPetrol
+	    {
+		    DisplayCategory = VehicleMaintenance,
+		    Weight	=	0.7,
+		    Type	=	Drainable,
+		    UseWhileEquipped	=	FALSE,
+		    UseDelta	=	1,
+		    DisplayName	=	Bottle of Gasoline,
+		    Icon	=	VodkaBottle,
+		    ReplaceOnDeplete	=	VodkaEmpty,
+		    StaticModel = VodkaBottle,
+		    WorldStaticModel = VodkaBottle,
+		    Tags = Petrol,
+	    }
+
+        item AbsinthePetrol
+	    {
+		    DisplayCategory = VehicleMaintenance,
+		    Weight	=	0.7,
+		    Type	=	Drainable,
+		    UseWhileEquipped	=	FALSE,
+		    UseDelta	=	1,
+		    DisplayName	=	Bottle of Gasoline,
+		    Icon	=	AbsintheBottle,
+		    ReplaceOnDeplete	=	AbsintheEmpty,
+		    StaticModel = AbsintheBottle,
+		    WorldStaticModel = AbsintheBottle,
+		    Tags = Petrol,
+	    }
+
+        item CampariPetrol
+	    {
+		    DisplayCategory = VehicleMaintenance,
+		    Weight	=	0.7,
+		    Type	=	Drainable,
+		    UseWhileEquipped	=	FALSE,
+		    UseDelta	=	1,
+		    DisplayName	=	Bottle of Gasoline,
+		    Icon	=	Campari,
+		    ReplaceOnDeplete	=	CampariEmpty,
+		    StaticModel = Campari,
+		    WorldStaticModel = Campari,
+		    Tags = Petrol,
+	    }
+
+        item OverproofPetrol
+	    {
+		    DisplayCategory = VehicleMaintenance,
+		    Weight	=	0.7,
+		    Type	=	Drainable,
+		    UseWhileEquipped	=	FALSE,
+		    UseDelta	=	1,
+		    DisplayName	=	Bottle of Gasoline,
+		    Icon	=	Overproof,
+		    ReplaceOnDeplete	=	OverproofEmpty,
+		    StaticModel = Overproof,
+		    WorldStaticModel = Overproof,
+		    Tags = Petrol,
+	    }
+
+        item KahluaPetrol
+	    {
+		    DisplayCategory = VehicleMaintenance,
+		    Weight	=	0.7,
+		    Type	=	Drainable,
+		    UseWhileEquipped	=	FALSE,
+		    UseDelta	=	1,
+		    DisplayName	=	Bottle of Gasoline,
+		    Icon	=	Kahlua,
+		    ReplaceOnDeplete	=	KahluaEmpty,
+		    StaticModel = Kahlua,
+		    WorldStaticModel = Kahlua,
+		    Tags = Petrol,
+	    }
+
+        item ChartreusePetrol
+	    {
+		    DisplayCategory = VehicleMaintenance,
+		    Weight	=	0.7,
+		    Type	=	Drainable,
+		    UseWhileEquipped	=	FALSE,
+		    UseDelta	=	1,
+		    DisplayName	=	Bottle of Gasoline,
+		    Icon	=	Chartreuse,
+		    ReplaceOnDeplete	=	ChartreuseEmpty,
+		    StaticModel = Chartreuse,
+		    WorldStaticModel = Chartreuse,
+		    Tags = Petrol,
+	    }
+
+        item AmarettoPetrol
+	    {
+		    DisplayCategory = VehicleMaintenance,
+		    Weight	=	0.7,
+		    Type	=	Drainable,
+		    UseWhileEquipped	=	FALSE,
+		    UseDelta	=	1,
+		    DisplayName	=	Bottle of Gasoline,
+		    Icon	=	Amaretto,
+		    ReplaceOnDeplete	=	AmarettoEmpty,
+		    StaticModel = Amaretto,
+		    WorldStaticModel = Amaretto,
+		    Tags = Petrol,
+	    }
+
+        item LuxardoPetrol
+	    {
+		    DisplayCategory = VehicleMaintenance,
+		    Weight	=	0.7,
+		    Type	=	Drainable,
+		    UseWhileEquipped	=	FALSE,
+		    UseDelta	=	1,
+		    DisplayName	=	Bottle of Gasoline,
+		    Icon	=	Luxardo,
+		    ReplaceOnDeplete	=	LuxardoEmpty,
+		    StaticModel = Luxardo,
+		    WorldStaticModel = Luxardo,
+		    Tags = Petrol,
+	    }
+
+        item CreamPetrol
+	    {
+		    DisplayCategory = VehicleMaintenance,
+		    Weight	=	0.7,
+		    Type	=	Drainable,
+		    UseWhileEquipped	=	FALSE,
+		    UseDelta	=	1,
+		    DisplayName	=	Bottle of Gasoline,
+		    Icon	=	Cream,
+		    ReplaceOnDeplete	=	CreamEmpty,
+		    StaticModel = Cream,
+		    WorldStaticModel = Cream,
+		    Tags = Petrol,
+	    }
+
+
+
+        /************************Mixers************************/
+
+        item Bitters
+        {
+            DisplayName =       Bitters,
+            DisplayCategory =   Food,
+            Type =              Food,
+            Weight =            .2,
+            Icon =              Bitters,
+            AlcoholPower =      1,
+            Alcoholic =         TRUE,
+            CantBeFrozen =      TRUE,
+            EatType =           popcan,
+            Packaged =          TRUE,
+            HungerChange =      -10,
+            ThirstChange =      -12,
+            UnhappyChange =     30,
+            Calories =          600,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            StaticModel =       Bitters,
+            WorldStaticModel =  Bitters,
+            Tags =              Liquor,
+            EvolvedRecipe =     OldFashioned:1;Martini:1;Daiquiri:1;Sidecar:1;Highball:1;Flip:1;Beverage:4;Beverage2:4;HotDrink:4;HotDrinkRed:4;HotDrinkWhite:4;HotDrinkSpiffo:4;HotDrinkTea:4;Soup:4;Stew:4,
+            FoodType	=  	    Liquor,
+
+        }
+
+        item TripleSec
+        {
+            DisplayName =       Triple Sec,
+            DisplayCategory =   Food,
+            Type =              Food,
+            Weight =            1.0,
+            Icon =              TripleSec,
+            Alcoholic =         TRUE,
+            CantBeFrozen =      TRUE,
+            EatType =           popcan,
+            Packaged =          TRUE,
+            HungerChange =      -14,
+            ThirstChange =      -16,
+            UnhappyChange =     -10,
+            Calories =          900,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            StaticModel =       TripleSec,
+            WorldStaticModel =  TripleSec,
+            Tags =              Liquor,
+            EvolvedRecipe =     OldFashioned:2;Martini:2;Daiquiri:2;Sidecar:2;Highball:2;Flip:2;Beverage:4;Beverage2:4;HotDrink:4;HotDrinkRed:4;HotDrinkWhite:4;HotDrinkSpiffo:4;HotDrinkTea:4;Soup:4;Stew:4,
+            FoodType	=  	    Liquor,
+        }
+
+        item Seltzer
+        {
+            DisplayName =       Seltzer,
+            DisplayCategory =   Food,
+            Type =              Food,
+            Weight =            .8,
+            Icon =              Seltzer,
+            EatType =           popcan,
+            Packaged =          TRUE,
+            HungerChange =      -15,
+            ThirstChange =      -60,
+            UnhappyChange =     -10,
+            Calories =          0,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            ReplaceOnUse =      SeltzerEmpty,
+            CustomContextMenu = Drink,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            StaticModel =       Seltzer,
+            WorldStaticModel =  Seltzer,
+            EvolvedRecipe =     OldFashioned:5;Martini:5;Daiquiri:5;Sidecar:5;Highball:5;Flip:5,
+            FoodType	=  	    NoExplicit,
+        }
+
+        item SeltzerEmpty
+        {
+            DisplayCategory =   WaterContainer,
+            Weight	=	        0.2,
+            CanStoreWater	=	TRUE,
+            Type	=	        Normal,
+            DisplayName	=	    Empty Seltzer Bottle,
+            ReplaceOnUseOn	=	WaterSource-SeltzerWater,
+            Icon	=	        Seltzer,
+            WorldStaticModel =  Seltzer,
+            StaticModel =       Seltzer,
+        }
+
+        item SeltzerWater
+        {
+            DisplayCategory =   Water,
+            IsWaterSource =     TRUE,
+            Weight =            0.9,
+            CanStoreWater =     TRUE,
+            FillFromDispenserSound = GetWaterFromDispenserGlass,
+		    FillFromTapSound =  GetWaterFromTapGlass,
+            Type =              Drainable,
+            UseWhileEquipped =  FALSE,
+            UseDelta =          0.08,
+            DisplayName =       Water Bottle,
+            ReplaceOnDeplete =  SeltzerEmpty.
+            ReplaceOnUseOn =    WaterSource-SeltzerWater, 
+            Icon =              Seltzer,
+            WorldStaticModel =  Seltzer,
+            StaticModel =       Seltzer,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            AttachmentType  = 	WaterBottle,
+        }
+
+        item Tonic
+        {
+            DisplayName =       Tonic Water,
+            DisplayCategory =   Food,
+            Type =              Food,
+            Weight =            .8,
+            Icon =              Tonic,
+            EatType =           popcan,
+            Packaged =          TRUE,
+            HungerChange =      -15,
+            ThirstChange =      -60,
+            UnhappyChange =     -10,
+            Calories =          0,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            ReplaceOnUse =      TonicEmpty,
+            CustomContextMenu = Drink,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            StaticModel =       Tonic,
+            WorldStaticModel =  Tonic,
+            EvolvedRecipe =     OldFashioned:5;Martini:5;Daiquiri:5;Sidecar:5;Highball:5;Flip:5,
+            FoodType	=  	    NoExplicit,
+        }
+
+        item TonicEmpty
+        {
+            DisplayCategory =   WaterContainer,
+            Weight	=	        0.2,
+            CanStoreWater	=	TRUE,
+            Type	=	        Normal,
+            DisplayName	=	    Empty Tonic Bottle,
+            ReplaceOnUseOn	=	WaterSource-TonicWater,
+            Icon	=	        Tonic,
+            WorldStaticModel =  Tonic,
+            StaticModel =       Tonic,
+        }
+
+        item TonicWater
+        {
+            DisplayCategory =   Water,
+            IsWaterSource =     TRUE,
+            Weight =            0.9,
+            CanStoreWater =     TRUE,
+            FillFromDispenserSound = GetWaterFromDispenserGlass,
+		    FillFromTapSound =  GetWaterFromTapGlass,
+            Type =              Drainable,
+            UseWhileEquipped =  FALSE,
+            UseDelta =          0.08,
+            DisplayName =       Water Bottle,
+            ReplaceOnDeplete =  TonicEmpty.
+            ReplaceOnUseOn =    WaterSource-TonicWater, 
+            Icon =              Tonic,
+            WorldStaticModel =  Tonic,
+            StaticModel =       Tonic,
+            CustomEatSound =    DrinkingFromBottleGlass,
+            AttachmentType  = 	WaterBottle,
+        }
+
+        /************************Glasses************************/
+
+        item CocktailGlass
+        {
+            DisplayCategory =   Food,
+            Weight =            .1,
+            Type =              Food,
+            DisplayName =       Coupe,
+            Icon =              CoupeEmpty,
+            WorldStaticModel =  CocktailGlass,
+            StaticModel =       CocktailGlass,
+        }
+
+        item RocksGlass
+        {
+            DisplayCategory =   Food,
+            Weight =            .1,
+            Type =              Food,
+            DisplayName =       Rocks Glass,
+            Icon =              RocksGlassEmpty,
+            WorldStaticModel =  RocksGlass,
+            StaticModel =       RocksGlass,
+        }
+
+        item MartiniGlass
+        {
+            DisplayCategory =   Food,
+            Weight =            .1,
+            Type =              Food,
+            DisplayName =       Martini Glass,
+            Icon =              MartiniGlassEmpty,
+            WorldStaticModel =  MartiniGlass,
+            StaticModel =       MartiniGlass,
+        }
+
+        item HighballGlass
+        {
+            DisplayCategory =   Food,
+            Weight =            .1,
+            Type =              Food,
+            DisplayName =       Highball Glass,
+            Icon =              HighballEmpty,
+            WorldStaticModel =  HighballGlass,
+            StaticModel =       HighballGlass,
+        }
+
+        item Shaker 
+        {
+            DisplayCategory =   Junk,
+            Weight =            .3,
+            Type =              Normal,
+            DisplayName =       Cocktail Shaker,
+            Icon =              Shaker,
+            WorldStaticModel =  Shaker,
+            StaticModel =       Shaker,
+        }
+
+        /************************Drinks************************/
+
+        item Cocktail
+        {
+            DisplayCategory =   Food,
+            Weight =            .1,
+            Type =              Food,
+            DisplayName =       Cocktail,
+            CustomEatSound =    DrinkingFromBottleGlass
+            ReplaceOnUse =      CocktailGlass,
+            Icon =              Coupe,
+            WorldStaticModel =  CocktailGlass,
+            StaticModel =       CocktailGlass,
+            UnhappyChange =     -25,
+            ThirstChange =      -10,
+            CustomContextMenu = Drink,
+            EatType =           popcan,
+            Alcoholic =         TRUE,
+            AlcoholPower =      3,
+        }
+
+        item OldFashioned 
+        {
+            DisplayCategory =   Food,
+            Weight =            .1,
+            Type =              Food,
+            DisplayName =       Old Fashioned,
+            CustomEatSound =    DrinkingFromCan,
+            ReplaceonUse =      RocksGlass,
+            Icon =              RocksGlassFilled,
+            WorldStaticModel =  RocksGlass,
+            StaticModel =       RocksGlass,
+            UnhappyChange =     -50,
+            ThirstChange =      -40,
+            HungerChange =      -15,
+            Calories =          500,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            EatType =           popcan,
+            Alcoholic =         TRUE,
+            AlcoholPower =      3,
+        }
+
+        item Martini
+        {
+            DisplayCategory =   Food,
+            Weight =            .1,
+            Type =              Food,
+            DisplayName =       Martini,
+            CustomEatSound =    DrinkingFromCan,
+            ReplaceonUse =      MartiniGlass,
+            Icon =              MartiniGlassFilled,
+            WorldStaticModel =  MartiniGlass,
+            StaticModel =       MartiniGlass,
+            UnhappyChange =     -50,
+            ThirstChange =      -40,
+            HungerChange =      -15,
+            Calories =          500,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            EatType =           popcan,
+            Alcoholic =         TRUE,
+            AlcoholPower =      3,
+        }
+
+        item Daiquiri
+        {
+            DisplayCategory =   Food,
+            Weight =            .1,
+            Type =              Food,
+            DisplayName =       Daiquiri,
+            CustomEatSound =    DrinkingFromCan,
+            ReplaceonUse =      CocktailGlass,
+            Icon =              CoupeFilled,
+            WorldStaticModel =  CocktailGlass,
+            StaticModel =       CocktailGlass,
+            UnhappyChange =     -50,
+            ThirstChange =      -40,
+            HungerChange =      -15,
+            Calories =          500,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            EatType =           popcan,
+            Alcoholic =         TRUE,
+            AlcoholPower =      3,
+        }
+
+        item Sidecar
+        {
+            DisplayCategory =   Food,
+            Weight =            .1,
+            Type =              Food,
+            DisplayName =       Sidecar,
+            CustomEatSound =    DrinkingFromCan,
+            ReplaceonUse =      CocktailGlass,
+            Icon =              CoupeFilled,
+            WorldStaticModel =  CocktailGlass,
+            StaticModel =       CocktailGlass,
+            UnhappyChange =     -50,
+            ThirstChange =      -40,
+            HungerChange =      -15,
+            Calories =          500,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            EatType =           popcan,
+            Alcoholic =         TRUE,
+            AlcoholPower =      3,
+        }
+
+        item Highball
+        {
+            DisplayCategory =   Food,
+            Weight =            .1,
+            Type =              Food,
+            DisplayName =       Highball,
+            CustomEatSound =    DrinkingFromCan,
+            ReplaceonUse =      HighballGlass,
+            Icon =              HighballFilled,
+            WorldStaticModel =  HighballGlass,
+            StaticModel =       HighballGlass,
+            UnhappyChange =     -50,
+            ThirstChange =      -45,
+            HungerChange =      -10,
+            Calories =          500,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            EatType =           popcan,
+            Alcoholic =         TRUE,
+            AlcoholPower =      3,
+        }
+
+        item Flip
+        {
+            DisplayCategory =   Food,
+            Weight =            .1,
+            Type =              Food,
+            DisplayName =       Flip,
+            CustomEatSound =    DrinkingFromCan,
+            ReplaceonUse =      RocksGlass,
+            Icon =              RocksGlassFilled,
+            WorldStaticModel =  RocksGlass,
+            StaticModel =       RocksGlass,
+            UnhappyChange =     -50,
+            ThirstChange =      -20,
+            HungerChange =      -35,
+            Calories =          500,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            EatType =           popcan,
+            Alcoholic =         TRUE,
+            AlcoholPower =      3,
+        }
+
+        /************************Advanced Drinks************************/
+
+        item LIIT
+        {
+            DisplayCategory =   Food,
+            Weight =            1,
+            Type =              Food,
+            DisplayName =       Long Island Iced Tea,
+            CustomEatSound =    DrinkingFromCan,
+            ReplaceonUse =      HighballGlass,
+            Icon =              HighballFilled,
+            WorldStaticModel =  HighballGlass,
+            StaticModel =       HighballGlass,
+            UnhappyChange =     -70,
+            ThirstChange =      -60,
+            HungerChange =      -50,
+            Calories =          900,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            EatType =           popcan,
+            Alcoholic =         TRUE,
+            AlcoholPower =      9,
+        }
+
+        item KYCoffee
+        {
+            DisplayCategory =   Food,
+            Weight =            1,
+            Type =              Food,
+            DisplayName =       Kentucky Coffee,
+            CustomEatSound =    DrinkingFromCan,
+            ReplaceonUse =      RocksGlass,
+            Icon =              RocksGlassFilled,
+            WorldStaticModel =  RocksGlass,
+            StaticModel =       RocksGlass,
+            UnhappyChange =     -70,
+            ThirstChange =      -60,
+            HungerChange =      -25,
+            FatigueChange =     -10,
+            Calories =          900,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            EatType =           popcan,
+            Alcoholic =         TRUE,
+            AlcoholPower =      1,
+        }
+
+        item SaltyDog
+        {
+            DisplayCategory =   Food,
+            Weight =            1,
+            Type =              Food,
+            DisplayName =       Salty Dog,
+            CustomEatSound =    DrinkingFromCan,
+            ReplaceonUse =      RocksGlass,
+            Icon =              RocksGlass,
+            WorldStaticModel =  RocksGlass,
+            StaticModel =       RocksGlass,
+            UnhappyChange =     -40,
+            ThirstChange =      -30,
+            HungerChange =      -20,
+            Calories =          600,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            EatType =           popcan,
+            Alcoholic =         TRUE,
+            AlcoholPower =      2,
+        }
+
+        item ReallySaltyDog
+        {
+            DisplayCategory =   Food,
+            Weight =            1,
+            Type =              Food,
+            DisplayName =       Really Salty Dog,
+            CustomEatSound =    DrinkingFromCan,
+            ReplaceonUse =      RocksGlass,
+            Icon =              RocksGlassFilled,
+            WorldStaticModel =  RocksGlass,
+            StaticModel =       RocksGlass,
+            UnhappyChange =     -55,
+            ThirstChange =      -25,
+            HungerChange =      -25,
+            Calories =          600,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            EatType =           popcan,
+            Alcoholic =         TRUE,
+            AlcoholPower =      2,
+        }
+
+        item BloodyMary
+        {
+            DisplayCategory =   Food,
+            Weight =            1,
+            Type =              Food,
+            DisplayName =       Bloody Mary,
+            CustomEatSound =    DrinkingFromCan,
+            ReplaceonUse =      HighballGlass,
+            Icon =              HighballFilled,
+            WorldStaticModel =  HighballGlass,
+            StaticModel =       HighballGlass,
+            UnhappyChange =     -40,
+            ThirstChange =      -30,
+            HungerChange =      -25,
+            Calories =          800,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            EatType =           popcan,
+            Alcoholic =         TRUE,
+            AlcoholPower =      2,
+        }
+
+        item ImprovedBloodyMary
+        {
+            DisplayCategory =   Food,
+            Weight =            1,
+            Type =              Food,
+            DisplayName =       Imrpoved Bloody Mary,
+            CustomEatSound =    DrinkingFromCan,
+            ReplaceonUse =      HighballGlass,
+            Icon =              HighballFilled,
+            WorldStaticModel =  HighballGlass,
+            StaticModel =       HighballGlass,
+            UnhappyChange =     -55,
+            ThirstChange =      -45,
+            HungerChange =      -45,
+            Calories =          800,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            EatType =           popcan,
+            Alcoholic =         TRUE,
+            AlcoholPower =      2,
+        }
+
+        item InsaneBloodyMary
+        {
+            DisplayCategory =   Food,
+            Weight =            1,
+            Type =              Food,
+            DisplayName =       Insane Bloody Mary,
+            CustomEatSound =    DrinkingFromCan,
+            ReplaceonUse =      HighballGlass,
+            Icon =              HighballFilled,
+            WorldStaticModel =  HighballGlass,
+            StaticModel =       HighballGlass,
+            UnhappyChange =     -99,
+            ThirstChange =      -99,
+            HungerChange =      -99,
+            Calories =          2500,
+            Carbohydrates =     750,
+            Lipids =            600,
+            Proteins =          600,
+            CustomContextMenu = Drink,
+            EatType =           popcan,
+            Alcoholic =         TRUE,
+            AlcoholPower =      2,
+        }
+
+        item Margarita
+        {
+            DisplayCategory =   Food,
+            Weight =            1,
+            Type =              Food,
+            DisplayName =       Margarita,
+            CustomEatSound =    DrinkingFromCan,
+            ReplaceonUse =      CocktailGlass,
+            Icon =              CoupeFilled,
+            WorldStaticModel =  CocktailGlass,
+            StaticModel =       CocktailGlass,
+            UnhappyChange =     -45,
+            ThirstChange =      -35,
+            HungerChange =      -25,
+            Calories =          900,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            EatType =           popcan,
+            Alcoholic =         TRUE,
+            AlcoholPower =      2,
+        }
+
+        item SpicyMargarita 
+        {
+            DisplayCategory =   Food,
+            Weight =            1,
+            Type =              Food,
+            DisplayName =       Spicy Margarita,
+            CustomEatSound =    DrinkingFromCan,
+            ReplaceonUse =      CocktailGlass,
+            Icon =              CoupeFilled,
+            WorldStaticModel =  CocktailGlass,
+            StaticModel =       CocktailGlass,
+            UnhappyChange =     -50,
+            ThirstChange =      -40,
+            HungerChange =      -30,
+            Calories =          900,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            EatType =           popcan,
+            Alcoholic =         TRUE,
+            AlcoholPower =      2,
+        }
+
+        item Vesper
+        {
+            DisplayCategory =   Food,
+            Weight =            1,
+            Type =              Food,
+            DisplayName =       Salty Dog,
+            CustomEatSound =    DrinkingFromCan,
+            ReplaceonUse =      MartiniGlass,
+            Icon =              MartiniGlassFilled,
+            WorldStaticModel =  MartiniGlass,
+            StaticModel =       MartiniGlass,
+            UnhappyChange =     -40,
+            ThirstChange =      -30,
+            HungerChange =      -20,
+            Calories =          600,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            EatType =           popcan,
+            Alcoholic =         TRUE,
+            AlcoholPower =      2,
+        }
+
+        /************************NEW Jan 2023************************/
+
+        item LastWord
+        {
+            DisplayCategory =   Food,
+            Weight =            1,
+            Type =              Food,
+            DisplayName =       Last Word,
+            CustomEatSound =    DrinkingFromCan,
+            ReplaceonUse =      CocktailGlass,
+            Icon =              CoupeFilled,
+            WorldStaticModel =  CocktailGlass,
+            StaticModel =       CocktailGlass,
+            UnhappyChange =     -40,
+            ThirstChange =      -30,
+            HungerChange =      -20,
+            Calories =          600,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            EatType =           popcan,
+            Alcoholic =         TRUE,
+            AlcoholPower =      2,
+        }
+
+        item WhiteRussian
+        {
+            DisplayCategory =   Food,
+            Weight =            1,
+            Type =              Food,
+            DisplayName =       White Russian,
+            CustomEatSound =    DrinkingFromCan,
+            ReplaceonUse =      RocksGlass,
+            Icon =              RocksGlassFilled,
+            WorldStaticModel =  RocksGlass,
+            StaticModel =       RocksGlass,
+            UnhappyChange =     -40,
+            ThirstChange =      -30,
+            HungerChange =      -20,
+            Calories =          600,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            EatType =           popcan,
+            Alcoholic =         TRUE,
+            AlcoholPower =      2,
+        }
+
+        item Negroni
+        {
+            DisplayCategory =   Food,
+            Weight =            1,
+            Type =              Food,
+            DisplayName =       Negroni,
+            CustomEatSound =    DrinkingFromCan,
+            ReplaceonUse =      RocksGlass,
+            Icon =              RocksGlassFilled,
+            WorldStaticModel =  RocksGlass,
+            StaticModel =       RocksGlass,
+            UnhappyChange =     -40,
+            ThirstChange =      -30,
+            HungerChange =      -20,
+            Calories =          600,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            EatType =           popcan,
+            Alcoholic =         TRUE,
+            AlcoholPower =      2,
+        }
+
+        item AmarettoSour
+        {
+            DisplayCategory =   Food,
+            Weight =            1,
+            Type =              Food,
+            DisplayName =       Amaretto Sour,
+            CustomEatSound =    DrinkingFromCan,
+            ReplaceonUse =      MartiniGlass,
+            Icon =              MartiniGlassFilled,
+            WorldStaticModel =  MartiniGlass,
+            StaticModel =       MartiniGlass,
+            UnhappyChange =     -40,
+            ThirstChange =      -30,
+            HungerChange =      -20,
+            Calories =          600,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            EatType =           popcan,
+            Alcoholic =         TRUE,
+            AlcoholPower =      2,
+        }
+
+        item PlantersPunch
+        {
+            DisplayCategory =   Food,
+            Weight =            1,
+            Type =              Food,
+            DisplayName =       Planter's Punch,
+            CustomEatSound =    DrinkingFromCan,
+            ReplaceonUse =      HighballGlass,
+            Icon =              HighballGlassFilled,
+            WorldStaticModel =  HighballGlass,
+            StaticModel =       HighballGlass,
+            UnhappyChange =     -40,
+            ThirstChange =      -30,
+            HungerChange =      -20,
+            Calories =          600,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            EatType =           popcan,
+            Alcoholic =         TRUE,
+            AlcoholPower =      2,
+        }
+
+        item Boulevardier
+        {
+            DisplayCategory =   Food,
+            Weight =            1,
+            Type =              Food,
+            DisplayName =       Boulevardier,
+            CustomEatSound =    DrinkingFromCan,
+            ReplaceonUse =      CocktailGlass,
+            Icon =              CoupeFilled,
+            WorldStaticModel =  CocktailGlass,
+            StaticModel =       CocktailGlass,
+            UnhappyChange =     -40,
+            ThirstChange =      -30,
+            HungerChange =      -20,
+            Calories =          600,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            EatType =           popcan,
+            Alcoholic =         TRUE,
+            AlcoholPower =      2,
+        }
+
+        item GinAndTonic
+        {
+            DisplayCategory =   Food,
+            Weight =            1,
+            Type =              Food,
+            DisplayName =       Gin and Tonic,
+            CustomEatSound =    DrinkingFromCan,
+            ReplaceonUse =      RocksGlass,
+            Icon =              RocksGlassFilled,
+            WorldStaticModel =  RocksGlass,
+            StaticModel =       RocksGlass,
+            UnhappyChange =     -30,
+            ThirstChange =      -20,
+            HungerChange =      -15,
+            Calories =          600,
+            Carbohydrates =     0,
+            Lipids =            0,
+            Proteins =          0,
+            CustomContextMenu = Drink,
+            EatType =           popcan,
+            Alcoholic =         TRUE,
+            AlcoholPower =      2,
+        }
+
+        
+
+        /************************Magazines************************/
+
+        item CocktailMag
+        {
+            DisplayCategory =   SkillBook,
+            Weight =            0.1,
+            Type =              Literature,
+            DisplayName =       Bartender's Book,
+            Icon =              CocktailMag,
+            StaticModel =       CocktailMag,
+            WorldStaticModel =  CocktailMag,
+            ReplaceOnUse =      CocktailMag,
+            TeachedRecipes =    Make Old Fashioned;Make Martini;Make Daiquiri;Make Sidecar;Make Flip;Make Margarita;Make Vesper;Make Negroni;Make Boulevardier;,
+        }
+
+        item SpecialtyCocktailMag
+        {
+            DisplayCategory =   SkillBook,
+            Weight =            0.1,
+            Type =              Literature,
+            DisplayName =       Specialty Cocktails,
+            Icon =              CocktailMag,
+            StaticModel =       CocktailMag,
+            WorldStaticModel =  CocktailMag,
+            ReplaceOnUse =      SpecialtyCocktailMag,
+            TeachedRecipes =    Make Long Island Iced Tea;Make Kentucky Coffee; Make Salty Dog;Make Bloody Mary;Make Improved Bloody Mary;Make Margarita;Make Spicy Margarita;Make Vesper;Make Last Word;Make White Russian;Make Amaretto Sour;Make Planter's Punch;,
+        }
+
+        item SecretCocktailMag
+        {
+            DisplayCategory =   SkillBook,
+            Weight =            0.1,
+            Type =              Literature,
+            DisplayName =       Forbidden Cocktails,
+            Icon =              CocktailMag,
+            StaticModel =       CocktailMag,
+            WorldStaticModel =  CocktailMag,
+            ReplaceOnUse =      SecretCocktailMag,
+            TeachedRecipes =    Make Really Salty Dog;Make Insane Bloody Mary;,
+        }
+        
+        /************************Snacks************************/
+
+        item TrailMix
+        {
+            DisplayName =       Trail Mix,
+		    DisplayCategory =   Food,
+		    Type =              Food,
+		    Weight =            0.5,
+		    Icon =              TrailMix,
+		    EatType =           2hand,
+		    ReplaceOnUse =      Bowl,
+		    HungerChange =      -16,
+		    Calories =          161,
+		    Carbohydrates =     4.57,
+		    Lipids =            13.96,
+		    Proteins =          7.31,
+		    StaticModel =       Bowl,
+		    WorldStaticModel =  BowlSalad_Ground,
+        }
+
+        item OliveJar
+        {
+            DisplayName =       Olives,
+            DisplayCategory =   Food,
+            Type =              Food,
+            Weight =            0.5,
+            DaysFresh =         60,
+            DaysTotallyRotten = 90,
+            ThirstChange =      +5,
+            HungerChange =      -15,
+            Calories =          328,
+            Carbohydrates =     1,
+            Lipids =            14,
+            Proteins =          2,
+            EatType =           can,
+            ReplaceOnUse =      EmptyJar,
+            Icon =              OliveJar,
+            StaticModel =       OliveJar,
+            WorldStaticModel =  OliveJar,
+            EvolvedRecipe =     Highball:3,Martini:3,Beverage:3,Beverage2:3,Soup:3,Stew:3,
+        }
+
+        item OnionJar
+        {
+            DisplayName =       Cocktail Onions,
+            DisplayCategory =   Food,
+            Type =              Food,
+            Weight =            0.5,
+            DaysFresh =         60,
+            DaysTotallyRotten = 90,
+            ThirstChange =      +5,
+            HungerChange =      -15,
+            Calories =          328,
+            Carbohydrates =     1,
+            Lipids =            14,
+            Proteins =          2,
+            EatType =           can,
+            ReplaceOnUse =      EmptyJar,
+            Icon =              OnionJar,
+            StaticModel =       OnionJar,
+            WorldStaticModel =  OnionJar,
+            EvolvedRecipe =     Highball:3,Martini:3,Beverage:3,Beverage2:3,Soup:3,Stew:3,
+        }
+
+        item CherryJar
+        {
+            DisplayName =       Maraschino Cherries,
+            DisplayCategory =   Food,
+            Type =              Food,
+            Weight =            0.5,
+            DaysFresh =         60,
+            DaysTotallyRotten = 90,
+            ThirstChange =      +5,
+            HungerChange =      -15,
+            Calories =          800,
+            Carbohydrates =     40,
+            Lipids =            14,
+            Proteins =          2,
+            EatType =           can,
+            ReplaceOnUse =      EmptyJar,
+            Icon =              CherryJar,
+            StaticModel =       CherryJar,
+            WorldStaticModel =  CherryJar,
+            EvolvedRecipe =     OldFashioned:3;Martini:3;Daiquiri:3;Sidecar:3;Highball:3;Flip:3;Beverage:3;Beverage2:3;HotDrink:3;HotDrinkRed:3;HotDrinkWhite:3;HotDrinkSpiffo:3;HotDrinkTea:3;Soup:3;Stew:3,
+        }
+
+}

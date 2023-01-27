@@ -1,0 +1,10 @@
+ContextMenu_RU
+{
+    ContextMenu_EvolvedRecipe_OldFashioned = "старомодный",
+    ContextMenu_EvolvedRecipe_Martini = "мартини",
+    ContextMenu_EvolvedRecipe_Daiquiri = "Плотник",
+    ContextMenu_EvolvedRecipe_Sidecar = "коляска",
+    ContextMenu_EvolvedRecipe_Highball = "хайбол",
+    ContextMenu_EvolvedRecipe_Flip = "кувырок",
+    ContextMenu_EvolvedRecipe_TrailMix = "смесь троп",
+}

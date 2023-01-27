@@ -1,0 +1,359 @@
+module ZBR
+{
+    imports 
+    {
+        Base
+    }
+
+
+    /************************Base Recipes************************/
+
+    recipe Make Old Fashioned 
+    {
+        NeedToBeLearn:true,
+        ZBR.RocksGlass,
+        Sugar/SugarBrown;2,
+        ZBR.Bitters;1,
+        WhiskeyFull/ZBR.Brandy/ZBR.Rum/ZBR.Vodka/ZBR.Moonshine/ZBR.Tequila/ZBR.Gin;5,
+
+        Result:ZBR.OldFashioned,
+        Time:80.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    recipe Make Martini 
+    {
+        NeedToBeLearn:true,
+        ZBR.MartiniGlass,
+        Wine/Wine2;5,
+        WhiskeyFull/ZBR.Brandy/ZBR.Rum/ZBR.Vodka/ZBR.Moonshine/ZBR.Tequila/ZBR.Gin;5,
+
+        Result:ZBR.Martini,
+        Time:80.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    recipe Make Daiquiri
+    {
+        NeedToBeLearn:true,
+        ZBR.CocktailGlass,
+        keep ZBR.Shaker,
+        Sugar;2,
+        WhiskeyFull/ZBR.Brandy/ZBR.Rum/ZBR.Vodka/ZBR.Moonshine/ZBR.Tequila/ZBR.Gin;5,
+        Lime/Lemon/Orange/Grapefruit;5,
+
+        Result:ZBR.Daiquiri,
+        Time:80.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    recipe Make Sidecar
+    {
+        NeedToBeLearn:true,
+        ZBR.CocktailGlass,
+        keep ZBR.Shaker,
+        WhiskeyFull/ZBR.Brandy/ZBR.Rum/ZBR.Vodka/ZBR.Moonshine/ZBR.Tequila/ZBR.Gin;5,
+        ZBR.TripleSec;2,
+
+        Result:ZBR.Sidecar,
+        Time:80.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    recipe Make Highball
+    {
+        ZBR.HighballGlass,
+        WhiskeyFull/ZBR.Brandy/ZBR.Rum/ZBR.Vodka/ZBR.Moonshine/ZBR.Tequila/ZBR.Gin;5,
+        Pop/Pop2/Pop3/ZBR.Seltzer;4,
+
+        Result:ZBR.Highball,
+        Time:80.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    recipe Make Flip
+    {
+        NeedToBeLearn:true,
+        ZBR.RocksGlass,
+        WhiskeyFull/ZBR.Brandy/ZBR.Rum/ZBR.Vodka/ZBR.Moonshine/ZBR.Tequila/ZBR.Gin;5,
+        Egg/WildEggs;10,
+
+        Result:ZBR.Flip,
+        Time:80.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    /************************Advanced Recipes************************/
+
+    recipe Make Long Island Iced Tea
+    {
+        NeedToBeLearn:true,
+        ZBR.HighballGlass,
+        keep ZBR.Shaker,
+        ZBR.Rum;2,
+        ZBR.Vodka;2,
+        ZBR.Gin;2,
+        ZBR.Tequila;2,
+        ZBR.TripleSec;2,
+        Pop/Pop2/Pop3;4,
+        Lemon;5,
+
+        Result:ZBR.LIIT,
+        Time:100.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking12,
+    }
+
+    recipe Make Kentucky Coffee
+    {
+        NeedToBeLearn:true,
+        ZBR.RocksGlass,
+        WhiskeyFull;5,
+        Coffee2;5,
+        Milk;5,
+        SugarBrown;2,
+
+        Result:ZBR.KYCoffee,
+        Time:100.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking12,
+    }
+
+    recipe Make Salty Dog
+    {
+        NeedToBeLearn:true,
+        ZBR.RocksGlass,
+        ZBR.Gin;5,
+        Grapefruit;10,
+        Salt;2,
+
+        Result:ZBR.SaltyDog,
+        Time:80.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    recipe Make Really Salty Dog
+    {
+        NeedToBeLearn:true,
+        ZBR.SaltyDog=1,
+        Salt;2,
+
+        Result:ZBR.ReallySaltyDog,
+        Time:30.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking1,
+    }
+
+    recipe Make Bloody Mary
+    {
+        NeedToBeLearn:true,
+        ZBR.HighballGlass,
+        ZBR.Vodka;5,
+        Salt;1,
+        Hotsauce;5,
+        farming.Tomato;4,
+
+        Result:ZBR.BloodyMary,
+        Time:100.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    recipe Make Improved Bloody Mary
+    {
+        NeedToBeLearn:true,
+        ZBR.BloodyMary=1,
+        PepperJalapeno;2,
+        Onion;5,
+        Carrots;4,
+
+        Result:ZBR.ImprovedBloodyMary,
+        Time:100.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    recipe Make Insane Bloody Mary
+    {
+        NeedToBeLearn:true,
+        ZBR.ImprovedBloodyMary=1,
+        Burger/BurgerRecipe;25,
+        Pie;25,
+
+        Result:ZBR.InsaneBloodyMary,
+        Time:100.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking20,
+    }
+
+    recipe Make Margarita
+    {
+        NeedToBeLearn:true,
+        ZBR.CocktailGlass,
+        keep ZBR.Shaker,
+        ZBR.Tequila;5,
+        Lime;5,
+        ZBR.TripleSec;2,
+        Salt;1,
+
+        Result:ZBR.Margarita,
+        Time:100.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    recipe Make Spicy Margarita
+    {
+        NeedToBeLearn:true,
+        ZBR.Margarita=1,
+        PepperJalapeno/PepperHabanero;2,
+
+        Result:ZBR.Margarita,
+        Time:100.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking2,
+    }
+
+    recipe Make Vesper
+    {
+        NeedToBeLearn:true,
+        ZBR.Gin;5,
+        ZBR.Vodka;2,
+        Wine;2,
+        Lemon;1,
+
+        Result:ZBR.Vesper,
+        Time:100.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    /************************NEW Jan 2023************************/
+
+
+    recipe Make Last Word
+    {
+        NeedToBeLearn:true,
+        ZBR.CocktailGlass,
+        ZBR.Gin;5,
+        ZBR.Luxardo;5,
+        Lime;5,
+
+        Result:ZBR.LastWord,
+        Time:100.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    recipe Make White Russian
+    {
+        NeedToBeLearn:true,
+        ZBR.RocksGlass,
+        ZBR.Vodka;5,
+        ZBR.Cream;3,
+        ZBR.Kahlua;3,
+
+        Result:ZBR.WhiteRussian,
+        Time:100.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    recipe Make Negroni
+    {
+        NeedToBeLearn:true,
+        ZBR.RocksGlass,
+        ZBR.Gin;5,
+        ZBR.Campari;5,
+        Wine2;5,
+
+        Result:ZBR.Negroni,
+        Time:100.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    recipe Make Amaretto Sour
+    {
+        NeedToBeLearn:true,
+        ZBR.MartiniGlass,
+        ZBR.Amaretto;5,
+        ZBR.Bitters;1,
+        Egg/WildEggs;10,
+        Lemon;5,
+
+        Result:ZBR.AmarettoSour,
+        Time:100.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+    
+    recipe Make Planter's Punch
+    {
+        NeedToBeLearn:true,
+        ZBR.HighballGlass,
+        ZBR.Rum;5,
+        ZBR.OverproofRum;2,
+        Sugar;2,
+        Lime;5,
+
+        Result:ZBR.PlantersPunch,
+        Time:100.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    recipe Make Boulevardier
+    {
+        NeedToBeLearn:true,
+        ZBR.CocktailGlass,
+        ZBR.Campari;3,
+        WhiskeyFull;5,
+        Wine2;3,
+
+        Result:ZBR.Boulevardier,
+        Time:100.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+
+    /************************NEW Jan 2023 - Simple************************/
+    recipe Make Gin and Tonic
+    {
+        ZBR.RocksGlass,
+        ZBR.Gin;5,
+        ZBR.Tonic;5,
+
+        Result:ZBR.GinAndTonic,
+        Time:100.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+
+
+
+    /************************Snacks************************/
+
+
+    recipe Make Trail Mix
+    {
+        Bowl,
+        Peanuts;16,
+
+        Result:ZBR.TrailMix,
+        Time:150.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking5,
+    }
+
+
+}

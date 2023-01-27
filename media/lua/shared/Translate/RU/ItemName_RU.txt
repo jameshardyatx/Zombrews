@@ -1,0 +1,16 @@
+ItemName_RU = {
+    ItemName_ZBR.Moonshine = "самогон",
+    ItemName_ZBR.Gin = "джин",
+    ItemName_ZBR.Vodka = "водка",
+    ItemName_ZBR.Tequila = "текила",
+    ItemName_ZBR.Brandy = "бренди",
+    ItemName_ZBR.Rum = "ром",
+    ItemName_ZBR.Absinthe = "абсент",
+    ItemName_ZBR.Campari = "кампари",
+    ItemName_ZBR.OverproofRum = "крепкий ром",
+    ItemName_ZBR.Kahlua = "kahlua",
+    ItemName_ZBR.Chartreuse = "шартрез",
+    ItemName_ZBR.Amaretto = "амаретто",
+    ItemName_ZBR.Luxardo = "luxardo",
+    ItemName_ZBR.Cream = "сливочный ликёр",
+}

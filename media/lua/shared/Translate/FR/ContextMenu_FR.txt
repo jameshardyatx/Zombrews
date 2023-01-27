@@ -1,0 +1,10 @@
+ContextMenu_FR
+{
+    ContextMenu_EvolvedRecipe_OldFashioned = "Cocktail à L'ancienne",
+    ContextMenu_EvolvedRecipe_Martini = "Martini",
+    ContextMenu_EvolvedRecipe_Daiquiri = "Daïquiri",
+    ContextMenu_EvolvedRecipe_Sidecar = "Sidecar",
+    ContextMenu_EvolvedRecipe_Highball = "Highball",
+    ContextMenu_EvolvedRecipe_Flip = "Retourner",
+    ContextMenu_EvolvedRecipe_TrailMix = "Mélange Montagnard",
+}

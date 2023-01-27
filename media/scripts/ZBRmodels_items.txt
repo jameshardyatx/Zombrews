@@ -1,0 +1,203 @@
+module Base 
+{
+
+
+    model MoonshineJug
+    {
+        mesh = WorldItems/MoonshineJug,
+        texture = WorldItems/MoonshineJug,
+        scale = 0.3,
+    }
+
+    model MoonshineJug_Ground 
+    {
+        mesh = WorldItems/MoonshineJug,
+        texture = MoonshineJug,
+        scale = 0.25,
+    }
+
+    model GinBottle
+    {
+        mesh = WorldItems/GinBottle,
+        texture = WorldItems/GinBottle,
+        scale = 0.35,
+    }
+
+    model VodkaBottle
+    {
+        mesh = WorldItems/VodkaBottle,
+        texture = WorldItems/VodkaBottle,
+        scale = 0.35,
+    }
+
+    model TequilaBottle
+    {
+        mesh = WorldItems/TequilaBottle,
+        texture = WorldItems/TequilaBottle,
+        scale = 0.3,
+    }
+
+    model BrandyBottle
+    {
+        mesh = WorldItems/BrandyBottle,
+        texture = WorldItems/BrandyBottle,
+        scale = 0.3,
+    }
+
+    model RumBottle
+    {
+        mesh = WorldItems/RumBottle,
+        texture = WorldItems/RumBottle,
+        scale = 0.35,
+    }
+
+    model AbsintheBottle
+    {
+        mesh = WorldItems/AbsintheBottle,
+        texture = WorldItems/AbsintheBottle,
+        scale = 0.35,
+    }
+
+    model Campari 
+    {
+        mesh = WorldItems/VodkaBottle,
+        texture = WorldItems/Campari,
+        scale = 0.35,
+    }
+
+    model Overproof 
+    {
+        mesh = WorldItems/RumBottle,
+        texture = WorldItems/Overproof,
+        scale = 0.35,
+    }
+
+    model Cream 
+    {
+        mesh = WorldItems/VodkaBottle,
+        texture = WorldItems/Cream,
+        scale = 0.35,
+    }
+
+    model Chartreuse
+    {
+        mesh = WorldItems/RumBottle,
+        texture = WorldItems/Chartreuse,
+        scale = 0.35,
+    }
+
+    model Amaretto
+    {
+        mesh = WorldItems/BrandyBottle,
+        texture = WorldItems/Amaretto,
+        scale = 0.35,
+    }
+
+    model Luxardo
+    {
+        mesh = WorldItems/VodkaBottle,
+        texture = WorldItems/Luxardo,
+        scale = 0.35,
+    }
+
+    model Kahlua
+    {
+        mesh = WorldItems/VodkaBottle,
+        texture = WorldItems/Kahlua,
+        scale = 0.35,
+    }
+
+    model Tonic
+    {
+        mesh = WorldItems/Seltzer,
+        texture = WorldItems/Tonic,
+        scale = 0.3,
+    }
+    
+
+    model Bitters
+    {
+        mesh = WorldItems/Bitters,
+        texture = WorldItems/Bitters,
+        scale = 0.35,
+    }
+
+    model TripleSec
+    {
+        mesh = WorldItems/VodkaBottle,
+        texture = WorldItems/TripleSec,
+        scale = 0.3,
+    }
+
+    model Seltzer
+    {
+        mesh = WorldItems/Seltzer,
+        texture = WorldItems/Seltzer,
+        scale = 0.3,
+    }
+
+    model CocktailGlass
+    {
+        mesh = WorldItems/Coupe,
+        texture = WorldItems/Coupe,
+        scale = 0.3,
+    }
+
+    model Shaker
+    {
+        mesh = WorldItems/Shaker,
+        texture = WorldItems/Shaker,
+        scale = 0.3,
+    }
+
+    model RocksGlass
+    {
+        mesh = WorldItems/RocksGlass,
+        texture = WorldItems/Coupe,
+        scale = 0.3,
+    }
+
+    model MartiniGlass
+    {
+        mesh = WorldItems/MartiniGlass,
+        texture = WorldItems/Coupe,
+        scale = 0.3,
+    }
+
+    model HighballGlass
+    {
+        mesh = WorldItems/Highball,
+        texture = WorldItems/Coupe,
+        scale = 0.3,
+    }
+
+    model CocktailMag
+    {
+        mesh = WorldItems/CocktailMag,
+        texture = WorldItems/CocktailMag,
+        scale = 0.3,
+    }
+
+    model OliveJar
+    {
+        mesh = WorldItems/Jar,
+        texture = WorldItems/OliveJar,
+        scale = 0.3,
+    }
+
+    model CherryJar
+    {
+        mesh = WorldItems/Jar,
+        texture = WorldItems/CherryJar,
+        scale = 0.3,
+    }
+
+    model OnionJar
+    {
+        mesh = WorldItems/Jar,
+        texture = WorldItems/OnionJar,
+        scale = 0.3,
+    }
+
+
+}

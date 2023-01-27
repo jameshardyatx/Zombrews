@@ -1,0 +1,9 @@
+UI_EN 
+{
+    UI_prof_bartender = "Bartender",
+    UI_profdesc_bartender = "You know how to make most cocktails.",
+
+    UI_trait_mixologist = "Mixologist",
+    UI_trait_mixologistinfo = "Know basic cocktail recipes.",
+
+}

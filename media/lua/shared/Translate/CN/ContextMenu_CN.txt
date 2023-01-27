@@ -1,0 +1,10 @@
+ContextMenu_CN
+{
+    ContextMenu_EvolvedRecipe_OldFashioned = "老式鸡尾酒",
+    ContextMenu_EvolvedRecipe_Martini = "马提尼",
+    ContextMenu_EvolvedRecipe_Daiquiri = "中国代基里酒",
+    ContextMenu_EvolvedRecipe_Sidecar = "边车",
+    ContextMenu_EvolvedRecipe_Highball = "高球",
+    ContextMenu_EvolvedRecipe_Flip = "翻动",
+    ContextMenu_EvolvedRecipe_TrailMix = "线索混合",
+}

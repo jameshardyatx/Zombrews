@@ -1,0 +1,10 @@
+ContextMenu_PT
+{
+    ContextMenu_EvolvedRecipe_OldFashioned = "Antiquado",
+    ContextMenu_EvolvedRecipe_Martini = "Martini",
+    ContextMenu_EvolvedRecipe_Daiquiri = "Carpinteiro",
+    ContextMenu_EvolvedRecipe_Sidecar = "Sidecar",
+    ContextMenu_EvolvedRecipe_Highball = "Bola Alta",
+    ContextMenu_EvolvedRecipe_Flip = "Virar",
+    ContextMenu_EvolvedRecipe_TrailMix = "Mistura de Trilha",
+}

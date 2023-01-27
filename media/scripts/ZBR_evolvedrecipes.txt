@@ -1,0 +1,72 @@
+module Base 
+{
+    evolvedrecipe CocktailRecipe 
+    {
+        BaseItem:CocktailGlass,
+		MaxItems:6,
+		ResultItem:ZBR.Cocktail,
+		Name:Prepare Cocktail,
+    }
+
+    evolvedrecipe OldFashioned
+    {
+        BaseItem:OldFashioned,
+        MaxItems:3,
+        ResultItem:ZBR.OldFashioned,
+        AddIngredientSound:AddItemInBeverage,
+        Name:Mix Old Fashioned,
+    }
+
+    evolvedrecipe Martini
+    {
+        BaseItem:Martini,
+        MaxItems:3,
+        ResultItem:ZBR.Martini,
+        AddIngredientSound:AddItemInBeverage,
+        Name:Mix Martini,
+    }
+
+    evolvedrecipe Daiquiri
+    {
+        BaseItem:Daiquiri,
+        MaxItems:3,
+        ResultItem:ZBR.Daiquiri,
+        AddIngredientSound:AddItemInBeverage,
+        Name:Mix Daiquiri,
+    }
+
+    evolvedrecipe Sidecar
+    {
+        BaseItem:Sidecar,
+        MaxItems:3,
+        ResultItem:ZBR.Sidecar,
+        AddIngredientSound:AddItemInBeverage,
+        Name:Mix Sidecar,
+    }
+
+    evolvedrecipe Highball
+    {
+        BaseItem:Highball,
+        MaxItems:3,
+        ResultItem:ZBR.Highball,
+        AddIngredientSound:AddItemInBeverage,
+        Name:Mix Highball,
+    }
+
+    evolvedrecipe Flip
+    {
+        BaseItem:Flip,
+        MaxItems:3,
+        ResultItem:ZBR.Flip,
+        AddIngredientSound:AddItemInBeverage,
+        Name:Mix Flip,
+    }
+
+    evolvedrecipe TrailMix
+    {
+        BaseItem:TrailMix,
+        MaxItems:10,
+        ResultItem:ZBR.TrailMix,
+        Name:Make Trail Mix,
+    }
+}
